@@ -1,6 +1,6 @@
 @import  url("reset.css");
 
-a {
+.aa {
     color: white;
     background: black;
     font-size: 24px;
@@ -9,14 +9,23 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 8px;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
 }
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
 .first {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     font-size: 0px;
     outline: 1px solid black;
@@ -115,4 +124,136 @@ a {
     display: inline-block;
 }
 
+header {
+    background: #000000;
+    margin: 10px 0px;
+    color: aliceblue;
+    padding: 30px;
+}
 
+p {
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    display: inline-block;
+    vertical-align:bottom;
+}
+
+.a1 {
+    text-align: right;
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 130px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(28, 45, 198);
+    background: #ccc;
+    border-radius: 6px;
+}
+.a1:hover {
+    color: red;
+}
+.a1:active {
+    color: green;
+}
+
+.a12 {
+max-width: 1200px;
+font-size: 0px;
+margin: 0 auto;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+margin: 0 auto;
+padding: 10px;
+font-size: 22px;
+color: #000000;
+}
+h1::before {
+content: '1234';
+color: blue;
+display: block;
+}
+h1::after {
+content: '4321';
+color: blue;
+}
+
+.wrapper div {
+    max-width: 1200px;
+    margin: 0 auto;
+    outline: 2px black solid;
+}
+
+
+.parent {
+background: rgb(239, 239, 166);
+}
+
+.child {
+font-size: 30px;
+width: 400px;
+height: 400px;
+float: left;
+}
+
+.second-cnt {
+background: rgb(143, 143, 220);
+font-size: 22px;
+}
+
+.sc2 {
+width: 800px;
+float: left;
+}
+
+.sc2>div {
+    height: 200px;
+}
+
+.sc2 + .sc2 {
+width: 400px;
+}
+
+.sc2+.sc2 > div {
+height: 133px;
+}
+
+.third {
+    background: rgb(192, 141, 150);
+}
+
+.third1div {
+    font-size: 30px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding: 10px;
+}
+
+.rta {
+    width: 800px;
+    height: 200px;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.qwe {
+    width: 400px;
+    height: 200px;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.eqw {
+    width: 400px;
+    height: 100px;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+}
