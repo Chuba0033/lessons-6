@@ -1,5 +1,20 @@
 @import  url("reset.css");
 
+a {
+    color: white;
+    background: black;
+    font-size: 24px;
+    display: block;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
 .first {
     width: 1200px;
     margin: 0 auto;
@@ -99,3 +114,5 @@
     font-size: 0px;
     display: inline-block;
 }
+
+
